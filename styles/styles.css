@@ -1,8 +1,8 @@
     /* Definir variables para la paleta de colores */
     :root {
-        --color-primary: #1746a2;
+        --color-primary: #7b90bb;
         --color-secondary: #Ff731d;
-        --color-accent: #bbb737f8;
+        --color-accent: #2c1c03f8;
         --color-background: #579df7;
         --color-text1:#ffffff;
         --color-text2:#072566;
@@ -108,9 +108,9 @@
   background-size: cover;
   background-attachment: fixed;
   margin-top: 50px; 
-  color: #ccc;
-  animation: cambiaColor 3s linear infinite alternate;
-  -webkit-animation: cambiaColor 3s linear infinite alternate;
+  color: #141010;
+  /*animation: cambiaColor 3s linear infinite alternate;
+  -webkit-animation: cambiaColor 3s linear infinite alternate;*/
 
 }
 
@@ -137,7 +137,7 @@
             border-radius: 10px;
             display: inline-block;
             width: calc(33.33% - 40px);
-            opacity: .8;
+            opacity: .9;
             
     }
 
@@ -145,8 +145,8 @@
             .offert h3 {
             font-size: 1.5rem;
             margin: 10px 0;
-            animation: cambiaColor 3s linear infinite alternate;
-            -webkit-animation: cambiaColor 3s linear infinite alternate;
+            /*animation: cambiaColor 3s linear infinite alternate;
+            -webkit-animation: cambiaColor 3s linear infinite alternate;*/
     }
 
         .offert p {
